@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Henríquez</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+
+            font-family: 'Courier New', Courier, monospace;
+            margin-bottom: 30px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            /* Añadido para manejar el ajuste en dispositivos más pequeños */
+        }
+
+        h4 {
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .caja {
+            width: 300px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+            text-align: center;
+            margin-bottom: 20px;
+            /* Espacio entre las cajas */
+        }
+
+        .titulo {
+            font-size: 25px;
+            margin-bottom: 10px;
+            /* color: #DEB407;*/
+            color: #000000;
+            font-family: 'Courier New', Courier, monospace;
+            font: bold;
+
+        }
+
+        .imagen {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            /* Hace la imagen redonda */
+            margin-bottom: 10px;
+            object-fit: cover;
+            /* Ajusta la imagen al contenedor */
+        }
+
+        .parrafo {
+            font-size: 28px;
+            color: #DEB407;
+            /*color: #555;*/
+        }
+
+        /* Nuevos estilos para el encabezado */
+        header {
+            background-color: #0f145b;
+            color: white;
+            padding: 20px;
+            margin-bottom: 90px;
+            border-radius: 10px;
+        }
+
+        header img {
+            /*border-radius: 50%;*/
+            width: 300px;
+            height: 75px;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Nuevo encabezado con foto -->
+    <header>
+        <img src="imagenes/logo_blanco.png" alt="Foto de perfil">
+        <h1>DATOS GENERALES</h1>
+        <h4>Semana del 13 al 17 de noviembre 2023</h4>
+
+
+    </header>
+
+
+    <div class="contenedor">
+        <!-- ... Resto del contenido HTML ... -->
+    </div>
+
+    <div class="contenedor">
+
+        <div class="caja">
+            <h2 class="titulo">TOTAL VIAJES</h2>
+            <img class="imagen" src="Imagenes/viajes.png" alt="VIAJES">
+            <p class="parrafo">496</p>
+        </div>
+
+        <div class="caja">
+            <h2 class="titulo">TOTAL GALONES</h2>
+            <img class="imagen" src="Imagenes/combustible.png" alt="Imagen 2">
+            <p class="parrafo">10,081</p>
+        </div>
+
+        <div class="caja">
+            <h2 class="titulo">TOTAL KILOMETROS</h2>
+            <img class="imagen" src="Imagenes/kilometros.png" alt="Imagen 3">
+            <p class="parrafo">85,102 KM</p>
+        </div>
+
+        <!-- Divs adicionales -->
+        <div class="caja">
+            <h2 class="titulo">GASTO MATENIMIENTO</h2>
+            <img class="imagen" src="Imagenes/mantenimiento.png" alt="Imagen 4">
+            <p class="parrafo">$606,601</p>
+        </div>
+
+        <div class="caja">
+            <h2 class="titulo">RENDIMIENTO GENERAL DE COMBUSTIBLE</h2>
+            <img class="imagen" src="Imagenes/rendimiento_combustible.png" alt="Imagen 5">
+            <p class="parrafo">8.44</p>
+        </div>
+
+        <div class="caja">
+            <h2 class="titulo">COSTO MANTENIMIENTO</h2>
+            <img class="imagen" src="Imagenes/costo_mantenimiento.png" alt="Imagen 6">
+            <p class="parrafo">7.12</p>
+        </div>
+        <!-- Fin de los divs existentes -->
+
+        <!-- Nuevos divs adicionales -->
+        <div class="caja">
+            <h2 class="titulo">TOTAL INGRESOS</h2>
+            <img class="imagen" src="Imagenes/total_ingresos.png" alt="Imagen 7">
+            <p class="parrafo">$8,343,131</p>
+        </div>
+
+        <div class="caja">
+            <h2 class="titulo">DISPONIBILIDAD FLOTILLA</h2>
+            <img class="imagen" src="Imagenes/flotilla.png" alt="Imagen 7">
+            <p class="parrafo">121</p>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
